@@ -1,0 +1,14 @@
+<div class="container">
+ <h2>Announcements</h2>
+<div class="list-group">
+  <h3>hey</h3>
+
+  {{#each data.announcements}}
+   <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">{{title}}</h4>
+    <p class="list-group-item-text">{{description}}</p>
+    <p>{{date}}</p>
+   </a>
+  {{/each}}
+ </div>
+</div>
